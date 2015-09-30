@@ -1,0 +1,23 @@
+{
+  "name": "cc-ajax",
+  "version": "0.0.1",
+  "description": "browser ajax",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cycgit/cc-ajax.git"
+  },
+  "keywords": [
+    "ajax",
+    "browser"
+  ],
+  "author": "cyc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cycgit/cc-ajax/issues"
+  },
+  "homepage": "https://github.com/cycgit/cc-ajax#readme"
+}

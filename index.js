@@ -41,6 +41,5 @@ function urlCode(data) {
     return str;
 }
 
-function foo(data){
-    console.log(data);
-}
+
+export {get, post}

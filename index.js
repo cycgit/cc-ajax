@@ -36,9 +36,10 @@ function urlCode(data) {
         return null;
     }
     for (var key in data) {
-        str += 'key=' + encodeURIComponent(data[key]);
+        str += key + '='+ encodeURIComponent(data[key])+ '&';
     }
-    return str;
+    
+    return str.substring(0, str.length-1);
 }
 
 

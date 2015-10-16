@@ -3,7 +3,7 @@ function get(url, data, callback) {
         callback = data;
     }
 
-    if(typeof data === "Object"){
+    if(typeof data === "object"){
         url = data ? url + '?' + urlCode(data) : url;
     }
 
